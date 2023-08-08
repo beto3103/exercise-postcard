@@ -1,60 +1,60 @@
-body {
-	background: black;
-}
-
-* {
-	border: 1px dashed red;
+*{
 	min-height: 10px;
+	margin: auto;
 }
 
-.postcard {
-	background: white;
+body{
+	background-color: black;
+}
+
+.postcard{
 	width: 400px;
 	height: 300px;
+	background-color: white;
 	margin: auto;
 }
 
-.postcard-header {
+.postcard-header{
 	display: flex;
 }
 
-.postcard-header img {
+.postcard-header h1{
+	width: 80%;
+	margin: auto;
+}
+
+.postcard-header img{
+	margin: auto;
 	width: 50px;
 	height: 50px;
+	padding: 5px;
 }
 
-.postcard-header h1 {
-	width: 100px;
-	margin: auto;
-}
-
-.postcard-body {
+.postcard-body{
 	display: flex;
 }
 
-.body-left,
-.body-right {
-	padding: 50px;
+.body-left{
+	margin: 10px;
+	padding: 2px
 }
 
-.body-left p:first-child {
-	margin-top: none;
+.body-right{
+	margin: 10px;
+	padding: 5px;
 }
 
-input {
+input{
 	border: none;
-	border-bottom: dimgrey;
+	border-bottom: 1px grey solid;
+	block
 }
 
-.postcard-footer {
+.postcard-footer{
 	text-align: center;
 }
 
-.postcard-footer button {
-	background-color: aquamarine;
-	padding: 50px;
-}
-
-p {
-	font-size: 50px;
+button{
+	background-color: gray;
+	padding: 5px;
 }
